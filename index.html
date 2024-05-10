@@ -20,7 +20,93 @@
 </style>
 </head>
 <body>
+<h1>FlexBox Defense</h1>
 
+    <table>
+        <thead>
+            <tr>
+                <th>Declaración</th>
+                <th>Descripción del Efecto</th>
+                <th>Juego</th>
+                <th>Nivel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>justify-content: center;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>justify-content: flex-end;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>justify-content: center; justify-content: space-between;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>justify-content: center;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>justify-content: center; justify-content: space-around; align-items: flex-end;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-between; align-items: center;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>flex-direction: column;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>flex-direction: column; align-items: center;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-around; flex-direction: row-reverse; align-items: center;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-around; order: 1;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-between; align-self: flex-end;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-between; align-items: center; order: 1; align-self: center; align-self: flex-end;</td>
+                <td>Elimina a los enemigos</td>
+                <td>FlexBox Defense</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+<h1>FlexBox Froggy</h1>
 <table>
     <thead>
         <tr>
@@ -32,29 +118,357 @@
     </thead>
     <tbody>
         <tr>
-            <td>justify-content: center;</td>
-            <td>Elimina a los enemigos</td>
-            <td>FlexBox Defense</td>
+            <td>justify-content: flex-end;</td>
+            <td>Mueve los elementos hacia el extremo derecho del contenedor.</td>
+            <td>Flexbox Froggy</td>
             <td>1</td>
         </tr>
         <tr>
-            <td>justify-content: flex-end;</td>
-            <td>Elimina a los enemigos</td>
-            <td>FlexBox Defense</td>
+            <td>justify-content: center;</td>
+            <td>Centra los elementos horizontalmente dentro del contenedor.</td>
+            <td>Flexbox Froggy</td>
             <td>2</td>
         </tr>
         <tr>
-            <td>justify-content: center;</td>
-            <td>Elimina a los enemigos</td>
-            <td>FlexBox Defense</td>
+            <td>justify-content: space-around;</td>
+            <td>Distribuye los elementos con espacio igual alrededor de ellos dentro del contenedor.</td>
+            <td>Flexbox Froggy</td>
             <td>3</td>
         </tr>
-            <td>justify-content: center;</td>
-            <td>Elimina a los enemigos</td>
-            <td>FlexBox Defense</td>
+        <tr>
+            <td>justify-content: space-between;</td>
+            <td>Distribuye los elementos con espacio igual entre ellos dentro del contenedor, pero sin espacio alrededor de los extremos.</td>
+            <td>Flexbox Froggy</td>
             <td>4</td>
+        </tr>
+        <tr>
+            <td>align-items: flex-end;</td>
+            <td>Alinea los elementos al extremo inferior del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>align-items: center; justify-content: center;</td>
+            <td>Centra tanto vertical como horizontalmente los elementos dentro del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>justify-content: space-around;</td>
+            <td>Distribuye los elementos con espacio igual alrededor de ellos dentro del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>flex-direction: row-reverse;</td>
+            <td>Invierte el orden de los elementos en el eje horizontal.</td>
+            <td>Flexbox Froggy</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>flex-direction: column;</td>
+            <td>Coloca los elementos en columnas en lugar de filas.</td>
+            <td>Flexbox Froggy</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>flex-direction: row-reverse; justify-content: flex-end;</td>
+            <td>Invierte el orden de los elementos en el eje horizontal y los mueve hacia el extremo derecho del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>flex-direction: column; justify-content: flex-end;</td>
+            <td>Coloca los elementos en columnas y los mueve hacia el extremo inferior del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>flex-direction: column-reverse; justify-content: space-between;</td>
+            <td>Coloca los elementos en columnas en orden inverso y distribuye los elementos con espacio igual entre ellos dentro del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>flex-direction: row-reverse; justify-content: center; align-items: flex-end;</td>
+            <td>Invierte el orden de los elementos en el eje horizontal, los centra horizontalmente y los alinea al extremo inferior del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>order: 1;</td>
+            <td>Define el orden en el que aparecen los elementos dentro del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>order: -3;</td>
+            <td>Define el orden en el que aparecen los elementos dentro del contenedor, con un valor negativo para colocarlo antes de los elementos por defecto.</td>
+            <td>Flexbox Froggy</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>align-self: flex-end;</td>
+            <td>Permite alinear individualmente un elemento al extremo inferior del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>align-self: flex-end; order: 1;</td>
+            <td>Permite alinear individualmente un elemento al extremo inferior del contenedor y define su orden.</td>
+            <td>Flexbox Froggy</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>flex-wrap: wrap;</td>
+            <td>Permite a los elementos envolver alrededor del contenedor si no hay suficiente espacio.</td>
+            <td>Flexbox Froggy</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>flex-direction: column; flex-wrap: wrap;</td>
+            <td>Coloca los elementos en columnas y permite a los elementos envolver alrededor del contenedor si no hay suficiente espacio.</td>
+            <td>Flexbox Froggy</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>flex-flow: column wrap;</td>
+            <td>Combina las propiedades flex-direction y flex-wrap en una sola declaración para colocar los elementos en columnas y permitirles envolver alrededor del contenedor si no hay suficiente espacio.</td>
+            <td>Flexbox Froggy</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>align-content: flex-start;</td>
+            <td>Alinea las líneas de elementos al inicio del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>align-content: flex-end;</td>
+            <td>Alinea las líneas de elementos al final del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>flex-direction: column-reverse; align-content: center;</td>
+            <td>Coloca los elementos en columnas en orden inverso y alinea las líneas de elementos verticalmente en el centro del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>flex-flow: column-reverse wrap-reverse; justify-content: center; align-content: space-between;</td>
+            <td>Combina la inversión del orden de columnas y filas, y centra horizontalmente los elementos y alinea las líneas de elementos verticalmente con espacio igual entre ellas dentro del contenedor.</td>
+            <td>Flexbox Froggy</td>
+            <td>24</td>
+        </tr>
+    </tbody>
+</table>
+<h1>CSS Diner</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Declaración</th>
+            <th>Descripción del Efecto</th>
+            <th>Juego</th>
+            <th>Nivel</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>plate</td>
+            <td>Selecciona todos los elementos que tienen la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>01</td>
+        </tr>
+        <tr>
+            <td>bento</td>
+            <td>Selecciona todos los elementos que tienen la clase "bento".</td>
+            <td>CSS Diner</td>
+            <td>02</td>
+        </tr>
+        <tr>
+            <td>#fancy</td>
+            <td>Selecciona el elemento con el id "fancy".</td>
+            <td>CSS Diner</td>
+            <td>03</td>
+        </tr>
+        <tr>
+            <td>plate apple</td>
+            <td>Selecciona los elementos que son manzanas y están dentro de un elemento con la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>04</td>
+        </tr>
+        <tr>
+            <td>#fancy pickle</td>
+            <td>Selecciona los elementos que son pepinos y están dentro del elemento con el id "fancy".</td>
+            <td>CSS Diner</td>
+            <td>05</td>
+        </tr>
+        <tr>
+            <td>.small</td>
+            <td>Selecciona todos los elementos que tienen la clase "small".</td>
+            <td>CSS Diner</td>
+            <td>06</td>
+        </tr>
+        <tr>
+            <td>orange.small</td>
+            <td>Selecciona las naranjas que tienen la clase "small".</td>
+            <td>CSS Diner</td>
+            <td>07</td>
+        </tr>
+        <tr>
+            <td>bento orange.small</td>
+            <td>Selecciona las naranjas que tienen la clase "small" y están dentro de un elemento con la clase "bento".</td>
+            <td>CSS Diner</td>
+            <td>08</td>
+        </tr>
+        <tr>
+            <td>plate, bento</td>
+            <td>Selecciona todos los elementos con la clase "plate" y todos los elementos con la clase "bento".</td>
+            <td>CSS Diner</td>
+            <td>09</td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Selecciona todos los elementos en la página.</td>
+            <td>CSS Diner</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>plate *</td>
+            <td>Selecciona todos los elementos que son hijos de un elemento con la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>plate + apple</td>
+            <td>Selecciona las manzanas que son hermanas adyacentes de un elemento con la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>bento ~ pickle</td>
+            <td>Selecciona los pepinos que son hermanos de un elemento con la clase "bento".</td>
+            <td>CSS Diner</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>plate > apple</td>
+            <td>Selecciona las manzanas que son hijos directos de un elemento con la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>orange:first-child</td>
+            <td>Selecciona las naranjas que son el primer hijo de su padre.</td>
+            <td>CSS Diner</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>plate apple:only-child, plate pickle:only-child</td>
+            <td>Selecciona las manzanas que son hijos únicos de un elemento con la clase "plate", y los pepinos que son hijos únicos de un elemento con la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>.small:last-child</td>
+            <td>Selecciona los elementos con la clase "small" que son el último hijo de su padre.</td>
+            <td>CSS Diner</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>plate:nth-child(3)</td>
+            <td>Selecciona el tercer hijo de un elemento con la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>bento:nth-last-child(3)</td>
+            <td>Selecciona el tercer hijo empezando desde el final de un elemento con la clase "bento".</td>
+            <td>CSS Diner</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>apple:first-of-type</td>
+            <td>Selecciona las manzanas que son el primer elemento de su tipo.</td>
+            <td>CSS Diner</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>plate:nth-of-type(even)</td>
+            <td>Selecciona los elementos con la clase "plate" que son elementos pares de su tipo.</td>
+            <td>CSS Diner</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>plate:nth-of-type(2n+3)</td>
+            <td>Selecciona los elementos con la clase "plate" que son elementos con índice impar de su tipo, empezando desde el tercer elemento.</td>
+            <td>CSS Diner</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>plate apple:only-of-type</td>
+            <td>Selecciona las manzanas que son el único elemento de su tipo dentro de un elemento con la clase "plate".</td>
+            <td>CSS Diner</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>orange:last-of-type, apple:last-of-type</td>
+            <td>Selecciona las naranjas y las manzanas que son el último elemento de su tipo.</td>
+            <td>CSS Diner</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>bento:empty</td>
+            <td>Selecciona los elementos con la clase "bento" que no tienen hijos.</td>
+            <td>CSS Diner</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>apple:not(.small)</td>
+            <td>Selecciona las manzanas que no tienen la clase "small".</td>
+            <td>CSS Diner</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>*[for]</td>
+            <td>Selecciona los elementos que tienen el atributo "for".</td>
+            <td>CSS Diner</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>plate[for]</td>
+            <td>Selecciona los elementos con la clase "plate" que tienen el atributo "for".</td>
+            <td>CSS Diner</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>bento[for="Vitaly"]</td>
+            <td>Selecciona los elementos con la clase "bento" que tienen el atributo "for" con el valor "Vitaly".</td>
+            <td>CSS Diner</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>*[for^="Sa"]</td>
+            <td>Selecciona los elementos que tienen el atributo "for" cuyo valor comienza con "Sa".</td>
+            <td>CSS Diner</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>*[for$="ato"]</td>
+            <td>Selecciona los elementos que tienen el atributo "for" cuyo valor termina con "ato".</td>
+            <td>CSS Diner</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>bento[for*="obb"]</td>
+            <td>Selecciona los elementos con la clase "bento" que tienen el atributo "for" con un valor que contiene "obb".</td>
+            <td>CSS Diner</td>
+            <td>32</td>
+        </tr>
     </tbody>
 </table>
 
-</body>
-</html>
+
+
+    
